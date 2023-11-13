@@ -1,10 +1,17 @@
 .shexsi-btn {
     border-radius: 5px;
-background: var(--3-a-68-b-8, #3A68B8);
-color:#fff;
-width: 100px;
-height: 50px;
-border-color: transparent;
+    background: var(--3-a-68-b-8, #3A68B8);
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border-color: transparent;
+    transition: 1s ease all;
+}
 
+.shexsi-btn:hover {
+    transform: scale(1.1);
+}
 
+.nav-item:hover {
+    text-decoration: underline;
 }
