@@ -1,0 +1,37 @@
+.intro-right-side img {
+    width: 100%;
+    max-width:632px;
+}
+
+.qacan-metn {
+    font-size: 34px;
+    color:#fff;
+}
+
+.introduction {
+    background-image: linear-gradient(to bottom, #08101e,#09111e);
+
+}
+
+
+
+.intro-left-side h6 {
+   color: var(--3-a-68-b-8, #3A68B8);
+   text-transform: uppercase;
+
+}
+
+.intro-left-side p {
+    color:#fff;
+    opacity: .7;
+}
+
+@media(min-width:768px) {
+    .intro-left-side {
+        padding-top: 160px;
+    }
+
+    .intro-right-side {
+        padding-top: 49px;
+    }
+}
